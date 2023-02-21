@@ -1,0 +1,35 @@
+Evelyn Di Salvo 
+- git add .            --->
+- git commit -m ''     ---> 
+- git push             ---> se suben tus cambios
+- git pull             ---> se actualizan los cambios externos
+
+- git status           ---> vemos el estado 
+- git log              ---> vemos todos los commit
+- git branch           ---> para veren que rama estoy parado
+- git branch <nombre>  ---> crear nueva rama
+- git checkout <nombre>---> para cambiarse de rama
+- git checkout -b      ---> para crear y cambiarse de rama
+- git branch -d        ---> para eliminar rama
+- git branch -a        ---> podemos vel todas las ramas remotas que no estan locales
+
+- git log --oneline --graph  --all ---> veer solo los commit
+
+
+- git init             ---> creamos un repositorio dentro de una carpeta
+- git branch -M main   ---> creamos la rama main
+- git remote add origin <url>
+- git push --set-upstream origin main --> conecto el repositorio remoto en github
+
+repositorio: para rastrear las distintas versiones
+.git: repositorio oculto donde se guardan todas las versiones del proyecto
+(master/main): confirma que trabajas en un repositorio
+repositorio remoto: origin
+
+
+Resolver merge: convinar ramas.
+
+Ramas: varias lineas de tiempo paralelas en un mismo proyecto: para poder trabajar en entornos separados y evitar muchos problemas. Permite traer los cambios a otra rama para obtener un unico proyecto. Una rama para cada desarrollador, equipo, test, developers y versiones estables.
+
+- developer: rama del proyecto a ser testeada
+- teams 

@@ -1,0 +1,30 @@
+# TRES AREAS:
+(git status)
+
+- modified (modificada): directorio de trabajo
+cuando la version del archivo contiene cambios que NO son parte del repositorio y NO se añadio al area de presentacion. 
+---- git add . ---->
+- staged (preparada): area de preparacion
+cuando la version del archivo contiene cambios que NO son parte del repositoio pero fue añadida al area de staging
+---- git commit -m '' ---->
+- commited (confirmada): repositorio (directorio .git)
+cuando la version del archivo ya se encuentra en el directorio de Git
+
+
+• untracked ➜ no esta rastreado (git add)
+
+• unstaged: que vuelva a no estar staged ➜ (git rm --cached <file>)
+
+✦Commit: registro o 'foto' del estado de un proyecto en un momento especifico✦
+
+
+
+
+
+
+
+
+
+
+
+➞ ➟ ➠ ➡ ➢ ➣ ➔ ➘ ➙ ➚ ➛ ➜ ➝
