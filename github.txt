@@ -1,0 +1,36 @@
+GitHub:
+
+Servicio de hosting(almacenamiento) que nos peermite almacenar proectos de desarrollo de software y control de versiones usando Git
+
+
+
+origin: nombre que comunmente le asignamos al repositorio remoto que clonamos
+Cuando clonamos un repositorio automaticamente origin se va a configurar
+Si creamos un repositorio local y luego lo enviamos a github el proceso es diferente
+
+git config --global user.name "evelyndisa"
+git config --global user.email "evelyndisa@icloud.com"
+
+git remote 
+git remote -v
+
+fetch: obtener los cambios realizados en el repositorio remoto
+push: enviar los cambios locales a un repositorio remoto
+pull: obtener los cambios realizados en el repositorio remoto
+
+
+OCULTAR CORREO EN GITHUB:
+ingresar los siguientes comandos en Git Bash
+git git config --global user.email 100318822+evelyndisa@users.noreply.github.com
+
+-----------------------------------------------------------------
+CONFIGURAR HTTPS CON UN TOKEN (GIT):
+Como autenticarnos para conectar Git con GitHub y poder enviar nuestros cambios
+
+Generamos el token para no tener que estar poniendo la contrasena 
+
+permisos:
+-repo
+-gist
+-delete repositories 
+-----------------------------------------------------------------
