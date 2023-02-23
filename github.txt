@@ -1,23 +1,30 @@
 GitHub:
-
 Servicio de hosting(almacenamiento) que nos peermite almacenar proectos de desarrollo de software y control de versiones usando Git
 
-
-
 origin: nombre que comunmente le asignamos al repositorio remoto que clonamos
-Cuando clonamos un repositorio automaticamente origin se va a configurar
-Si creamos un repositorio local y luego lo enviamos a github el proceso es diferente
 
 git config --global user.name "evelyndisa"
 git config --global user.email "evelyndisa@icloud.com"
 
 git remote 
 git remote -v
+--------------------------
+Cuando clonamos un repositorio automaticamente origin se va a configurar. Si creamos un repositorio local y luego lo enviamos a github el proceso es diferente
+Enviar repositorio local a GitHub:
+git init
+git add .
+git commit -m
+git remote add origin <url>
+git remote -v
+git push origin main
+------------------------
+BIFURCAR UN REPOSITORIO: Fork:
+Crear una copia del repositorio (que no nos pertenece) remoto en tu cuenta de GitHub.
 
-fetch: obtener los cambios realizados en el repositorio remoto
-push: enviar los cambios locales a un repositorio remoto
-pull: obtener los cambios realizados en el repositorio remoto
+Como actualizar un fork: Sync fork (en github) -> comparar o combinar
 
+pull request: solicitud de combinar tus cambios con el repositorio original del proyecto
+-----------------------------------------------------------------
 
 OCULTAR CORREO EN GITHUB:
 ingresar los siguientes comandos en Git Bash
@@ -34,3 +41,24 @@ permisos:
 -gist
 -delete repositories 
 -----------------------------------------------------------------
+
+fetch: obtener los cambios realizados en el repositorio remoto
+push: enviar los cambios locales a un repositorio remoto
+pull: obtener los cambios realizados en el repositorio remoto
+
+FETCH | PULL :
+
+• git pull ---> Comando usad para descargar el contenido de un repositorio remoto e INMEDIATAMENTE ACTUALIZAR un repositorio local para que ambos tengan la misma informacion. (merge)
+
+• git fetch ---> Comando usado para VERIFICAR los cambios realizados en el repositrio remoto sin combinar esos cambios con el repositorio local. Es muy util porque te permite saber si se han realizado cambios en el repositorio remoto desde la ultima vez que actualizaste tu repositorio local con git pull. 
+Hay que especificar de donde queremos esos cambios: origin
+git fetch origin
+git checkout origin/main (rama remota)
+git checkout main
+git pull origin main
+
+
+_______________________________________
+ISSUES : tareas pendientes
+- etiquetas que clasifican los issues (labels), podes crearlas vos mismo y asi tener personalizadas
+good first issue: posibilidad de colaboracion para contribuir en GitHub. 

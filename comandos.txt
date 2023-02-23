@@ -22,3 +22,4 @@ Evelyn Di Salvo
 - git remote add origin <url>
 - git push --set-upstream origin main --> conecto el repositorio remoto en github
 
+- git push origin <nombre de la rama>
