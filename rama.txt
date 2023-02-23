@@ -1,0 +1,20 @@
+RAMA - BRANCH 
+Una rama en Git es una linea independiente de desarrollo en el repositorio.
+(misma version del proyectoy van evolucionando)
+Ramas: varias lineas de tiempo paralelas en un mismo proyecto: para poder trabajar en entornos separados y evitar muchos problemas. Permite traer los cambios a otra rama para obtener un unico proyecto. Una rama para cada desarrollador, equipo, test, developers y versiones estables.
+
+crear: git branch <nombre>
+cambiar de rama: git checkout <nobre>
+modificar nombre: git branch -m <nuevo nombre> (ubicados en esa rama) / git branch -m <viejo nombre> <nuevo nombre> (desde cualquier rama)
+eliminar: git branch -d <nombre> (para locales no que esten publicadas en github) desde main
+
+
+
+Fusionar ramas: Merge   
+Proceso que permite combinar varias lineas independientes de desarrollo en una sola rama, para tener una sola version del proyecto
+• Es necesario estar en la rama que recibira la fusion (main)
+git merge <nombre rama a fusionar>
+
+Resolver conflictos del merge: cambios incompatibles
+git merge --continue
+

@@ -13,6 +13,7 @@ Evelyn Di Salvo
 - git branch -d        ---> para eliminar rama
 - git branch -a        ---> podemos vel todas las ramas remotas que no estan locales
 
+- git log --oneline
 - git log --oneline --graph  --all ---> veer solo los commit
 
 
@@ -21,15 +22,3 @@ Evelyn Di Salvo
 - git remote add origin <url>
 - git push --set-upstream origin main --> conecto el repositorio remoto en github
 
-repositorio: para rastrear las distintas versiones
-.git: repositorio oculto donde se guardan todas las versiones del proyecto
-(master/main): confirma que trabajas en un repositorio
-repositorio remoto: origin
-
-
-Resolver merge: convinar ramas.
-
-Ramas: varias lineas de tiempo paralelas en un mismo proyecto: para poder trabajar en entornos separados y evitar muchos problemas. Permite traer los cambios a otra rama para obtener un unico proyecto. Una rama para cada desarrollador, equipo, test, developers y versiones estables.
-
-- developer: rama del proyecto a ser testeada
-- teams 

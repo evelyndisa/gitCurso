@@ -23,6 +23,14 @@ git config --global core.editor 'code --wait'
 Modificar un commit: (git commit --amend)
 Borrar un commit: (git reset --soft HEAD~1)
 
+-------------------------------------------------
+
+repositorio: para rastrear las distintas versiones
+.git: repositorio oculto donde se guardan todas las versiones del proyecto
+(master/main): confirma que trabajas en un repositorio
+repositorio remoto: origin
+
+
 
 
 
