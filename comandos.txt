@@ -6,7 +6,8 @@ Evelyn Di Salvo
 
 - git status           ---> vemos el estado 
 - git log              ---> vemos todos los commit
-- git branch           ---> para veren que rama estoy parado
+- git diff             ---> vemos las diferencias 
+- git branch           ---> para ver en que rama estoy parado
 - git branch <nombre>  ---> crear nueva rama
 - git checkout <nombre>---> para cambiarse de rama
 - git checkout -b      ---> para crear y cambiarse de rama
@@ -23,3 +24,9 @@ Evelyn Di Salvo
 - git push --set-upstream origin main --> conecto el repositorio remoto en github
 
 - git push origin <nombre de la rama>
+
+git remote add GH <url>
+git push -u GH main 
+
+
+descargar comparar integrar trabajar guardar enviar 
