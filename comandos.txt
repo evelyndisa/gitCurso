@@ -29,4 +29,12 @@ git remote add GH <url>
 git push -u GH main 
 
 
+
+git restore <file>: reestablecer el archivo a como se encuentra en la ultima captura
+git revert <ref>: genera un commit que deshace los cambios introducidos en otro commit
+git reset <ref>: elimina los commits sin afectar al working directory
+git reset --hard <ref>: reestablece el repositorio hasta el commit seleccionado
+
+
+
 descargar comparar integrar trabajar guardar enviar 

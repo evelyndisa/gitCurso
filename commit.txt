@@ -1,0 +1,17 @@
+✦Commit✦
+Registro o 'foto' del estado de un proyecto en un momento especifico
+Si no esta configurado: asociar el editor de texto con git:
+git config --global core.editor 'code --wait'
+Modificar un commit: (git commit --amend)
+Borrar un commit: (git reset --soft HEAD~1)
+
+
+agregar commit que borraron:
+git cherry-pick <numero de hash>
+
+eliminar y revierte commit:
+git revert <numero de hash>
+
+agregar cambios a un commit ya hecho:
+(estamos editando el ultimo commit)
+git commit --amend -a

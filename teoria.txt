@@ -15,14 +15,10 @@ cuando la version del archivo ya se encuentra en el directorio de Git
 
 • unstaged: que vuelva a no estar staged ➜ (git rm --cached <file>)
 
-✦Commit✦
-Registro o 'foto' del estado de un proyecto en un momento especifico
-Si no esta configurado: asociar el editor de texto con git:
-git config --global core.editor 'code --wait'
-Modificar un commit: (git commit --amend)
-Borrar un commit: (git reset --soft HEAD~1)
 
-
+ETIQUETAS
+git tag
+tag es fijo, no se mueve
 
 
 
