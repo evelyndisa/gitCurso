@@ -6,12 +6,18 @@ Modificar un commit: (git commit --amend)
 Borrar un commit: (git reset --soft HEAD~1)
 
 
-agregar commit que borraron:
+• agregar commit que borraron:
 git cherry-pick <numero de hash>
 
-eliminar y revierte commit:
+• eliminar y revierte commit:
 git revert <numero de hash>
 
-agregar cambios a un commit ya hecho:
+• agregar cambios a un commit ya hecho:
 (estamos editando el ultimo commit)
 git commit --amend -a
+
+
+• cuatos commits hizo cada uno:
+git shortlog      -> mustra todos los commits que hicieron
+git shortlog -s   -> la cantidad de commits que hizo cada uno
+git log -p --author=maimazzei => que commits  hizo este usuario
